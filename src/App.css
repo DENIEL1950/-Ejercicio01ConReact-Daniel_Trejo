@@ -14,19 +14,39 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image:url(https://concepto.de/wp-content/uploads/2015/03/paisaje-2-e1549600987975.jpg);
   min-height: 100vh;
+  size-adjust:auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(228, 8, 8);
 }
 
 .App-link {
   color: #61dafb;
 }
+.carta-head{
+  background-color: black;
+  background-size:cover;
+  background-repeat: no-repeat ;
+  font-style: oblique;
+  color: white;
+}
+.carta-body{
+  background-image: url(http://c.files.bbci.co.uk/160D3/production/_98332309_image1.jpg);
+  background-size:cover;
+  background-repeat: no-repeat ;
+  color: black;
+}
+.carta-foot{
+  background-color: black;
+  background-size:cover;
+  background-repeat: no-repeat ;
+}
+
 
 @keyframes App-logo-spin {
   from {
